@@ -1,6 +1,6 @@
 #trial {
   width:500px;
-  height:200px;
+  height:1000px;
   border:1px solid white;
   margin:auto;
   position: absolute;
@@ -25,9 +25,11 @@
   100% {top: 100px;}
 }
 
+<!--
 .animate jump {
   animation: jump 300ms linear;
 }
+-->
 
 #block {
     width: 20px;
@@ -36,7 +38,7 @@
     position: relative;
     top: 130px;
     left: 480px;
-    animation: block 1s infinite linear;
+    animation: block 1s infinite vertical;
 }
 
 @keyframes block {
