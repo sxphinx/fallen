@@ -8,7 +8,7 @@
 #character {
   width:20px;
   height:50px;
-  background-color: blue;
+  background-color: powderblue;
   position: relative;
   top:150px;
 }
@@ -27,7 +27,7 @@
 #block {
     width: 20px;
     height: 20px;
-    background-color: deepskyblue;
+    background-color: powderblue;
     position: relative;
     top: 130px;
     left: 480px;
