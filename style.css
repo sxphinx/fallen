@@ -1,6 +1,7 @@
 #game {
   width:500px;
   height:200px;
+  background-color: blue;
   border:1px solid black;
   margin:auto;
 }
