@@ -24,11 +24,9 @@
   100% {top: 100px;}
 }
 
-<!--
 .animate jump {
   animation: jump 300ms linear;
 }
--->
 
 #block {
     width: 20px;
