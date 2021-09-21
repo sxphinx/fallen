@@ -14,7 +14,7 @@
   height:50px;
   background-color: powderblue;
   position: relative;
-  top:150px;
+  top:450px;
 }
 
 @keyframes jump {
@@ -35,9 +35,9 @@
     height: 20px;
     background-color: powderblue;
     position: relative;
-    top: 130px;
+    top: 430px;
     left: 480px;
-    animation: block 1s infinite vertical;
+    animation: block 1s infinite linear;
 }
 
 @keyframes block {
