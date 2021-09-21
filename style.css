@@ -19,3 +19,7 @@
   70% {top: 100px;}
   100% {top: 100px;}
 }
+
+.animate jump {
+  animation: jump 300ms linear;
+}
