@@ -5,7 +5,7 @@ function jump() {
   if(character.classList == "animate"){return;}
     character.classList.add("animate");
     setTimeout(removeJump,300);
-};
+}
 
 function removeJump() {
     character.classList.remove("animate");
