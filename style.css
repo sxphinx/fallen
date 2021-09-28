@@ -20,19 +20,19 @@
   font-family: Didot, Georgia, serif;
 }
 
-#a:link {
+#links a:link {
   color:white;
 }
 
-#a:visited {
+#links a:visited {
   color:lavender;
 }
 
-#a:hover {
+#links a:hover {
   color:powderblue;
 }
 
-#a:active {
+#links a:active {
   color:lightblue;
 }
 
