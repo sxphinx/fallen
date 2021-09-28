@@ -16,9 +16,24 @@
 }
 
 #links {
-  color:white;
   text-align:center;
   font-family: Didot, Georgia, serif;
+}
+
+#links:link {
+  color:white;
+}
+
+#links:visited {
+  color:lavender;
+}
+
+#links:hover {
+  color:powderblue;
+}
+
+#links:active {
+  color:lightblue;
 }
 
 /* trial box */
