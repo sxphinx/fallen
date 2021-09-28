@@ -1,7 +1,7 @@
 /* text styling */
 #header {
-  color:white;
-  text-align:center;
+  color: white;
+  text-align: center;
 }
 
 #about {
@@ -11,7 +11,7 @@
 }
 
 #body {
- background-color:black; 
+ background-color: black; 
 }
 
 #contact {
