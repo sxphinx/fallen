@@ -9,6 +9,14 @@
   text-align:center;
 }
 
+#body {
+ background-color:black; 
+}
+
+#contact {
+  
+}
+
 /* trial box */
 #trial {
   width:500px;
