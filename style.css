@@ -42,6 +42,7 @@
   height:500px;
   border:1px solid white;
   margin:auto;
+  position: relative;
 }
 
 /* first block; replace with sprite */
@@ -49,12 +50,13 @@
   width:20px;
   height:50px;
   background-color: powderblue;
-  position: relative;
-  top:0px;
+  position: absolute;
+  top:10px;
+  left:250px;
 }
 
 /* obstacle; may remove */
-#block {
+/*#block {
     width: 20px;
     height: 20px;
     background-color: powderblue;
@@ -62,7 +64,7 @@
     top: 430px;
     left: 480px;
     animation: scrollUp block 1s infinite;
-}
+} */
 
 /* animation */
 @keyframes jump {
