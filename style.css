@@ -50,7 +50,7 @@
   height:50px;
   background-color: powderblue;
   position: relative;
-  top:450px;
+  top:0px;
 }
 
 /* obstacle; may remove */
@@ -61,7 +61,7 @@
     position: relative;
     top: 430px;
     left: 480px;
-    animation: block 1s infinite linear;
+    animation: scrollUp block 1s infinite;
 }
 
 /* animation */
