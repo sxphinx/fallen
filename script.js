@@ -1,6 +1,6 @@
-var pane = $('#trial'),
-    box = $('#character'),
-    w = pane.width() - box.width(),
+var trial = $('#trial'),
+    character = $('#character'),
+    w = trial.width() - character.width(),
     d = {},
     x = 3;
 
@@ -13,7 +13,7 @@ function newv(v,a,b) {
 $(window).keyup(function(e) { d[e.which] = false; });
 
 setInterval(function() {
-    box.css({
+    character.css({
         left: function(i,v) { return newv(v, 37, 39); },
         top: function(i,v) { return newv(v, 38, 40); }
     });
