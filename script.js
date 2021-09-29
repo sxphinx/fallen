@@ -1,5 +1,4 @@
-var character = document.getElementById("character");
-    pane = $('#trial'),
+var pane = $('#trial'),
     box = $('#character'),
     w = pane.width() - box.width(),
     d = {},
@@ -21,7 +20,8 @@ setInterval(function() {
 }, 20);
 
 // jump function (not used)
-/* document.addEventListener("click",jump);
+/* var character = document.getElementById("character");
+document.addEventListener("click",jump);
 
 function jump() {
   if(character.classList == "animate"){return;}
