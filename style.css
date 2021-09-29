@@ -42,6 +42,7 @@
   height:500px;
   border:1px solid white;
   position: relative;
+  margin: auto;
 }
 
 /* first block; replace with sprite */
