@@ -1,6 +1,6 @@
-var pane = $('#trial'),
-    box = $('#character'),
-    w = pane.width() - box.width(),
+var trial = $('#trial'),
+    char = $('#character'),
+    w = trial.width() - char.width(),
     d = {},
     x = 3;
 
@@ -17,7 +17,7 @@ $(window).keyup(function(e) {
 });
 
 setInterval(function() {
-  box.css({
+  char.css({
     left: function(i,v) {
       return newv(v, 37, 39); 
     },
