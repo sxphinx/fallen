@@ -11,12 +11,12 @@ function calculateNewValue(oldValue, keyCode1, keyCode2) {
   return newValue < 0 ? 0 : newValue > maxValue ? maxValue : newValue;
 }
 
-/* $(window).keydown(function(event) {
+$(window).keydown(function(event) {
   keysPressed[event.which] = true; 
 });
 $(window).keyup(function(event) {
   keysPressed[event.which] = false;
-}); */
+});
 
 setInterval(function() {
   char.css({
