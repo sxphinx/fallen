@@ -1,5 +1,5 @@
 var trial = $('#trial'),
-    char = $('#character'),
+    char = $('#sprite'),
     maxValue = trial.width() - char.width(),
     keysPressed = {},
     distancePerIteration = 3;
