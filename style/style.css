@@ -70,7 +70,7 @@
 }
 
 #links a:hover {
-  color: #8470ff;
+  color: #dad4ff;
   text-decoration:underline;
 }
 
@@ -84,7 +84,7 @@
   height:500px;
   border:2px solid white;
   border-radius: 8px;
-  background-color: #8470ff;
+  background-color: #dad4ff;
   position: relative;
   margin: auto;
 } 
