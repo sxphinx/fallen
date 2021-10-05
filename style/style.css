@@ -1,14 +1,22 @@
+/* page styling */
+#body {
+  background-color: black;
+  margin: 0px auto;
+  width: 1000px;
+  background-image: linear-gradient(90deg, black, darkslateblue, black);
+}
+
 /* image styling */
 #header {
   height: 200px;
-  width: 520px;
+  width: 500px;
   margin-left: auto;
   margin-right: auto;
   display:block;
 }
 
 #title {
-  width:25%;
+  width:35%;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -17,7 +25,7 @@
 #sprite {
   width:30%;
   position: absolute;
-  top:10px;
+  top:200px;
   left:200px;
 }
 
@@ -31,20 +39,30 @@
 #about {
   color:white;
   text-align:center;
+  font-size:12pt;
   font-family: Didot, Georgia, serif;
-}
-
-#body {
- background-color: darkslateblue; 
+  border: 2px solid white;
+  border-radius: 8px;
+  background-color: slateblue;
+  width: 500px;
+  margin: auto;
 }
 
 #links {
   text-align:center;
+  color:white
+  font-size:12pt;
   font-family: Didot, Georgia, serif;
 }
 
+
 #links a:link {
   color:white;
+  text-decoration:none;
+  border-radius: 8px;
+  background-color: slateblue;
+  padding: 14px 25px;
+  display:inline-block;
 }
 
 #links a:visited {
@@ -52,7 +70,8 @@
 }
 
 #links a:hover {
-  color:steelblue;
+  color: lightskyblue;
+  text-decoration:underline;
 }
 
 #links a:active {
@@ -64,12 +83,13 @@
   width:500px;
   height:500px;
   border:2px solid white;
-  background-color: lightsteelblue;
+  border-radius: 8px;
+  background-color: lightskyblue;
   position: relative;
   margin: auto;
 } 
 
-/* console to control character */
+/* console to click & control character */
 #pane {
   position: relative;
   width: 300px;
